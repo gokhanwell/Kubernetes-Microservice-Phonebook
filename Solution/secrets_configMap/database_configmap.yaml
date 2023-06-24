@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+    name: database-configmap
+data: 
+    MYSQL_USER: gokhanwell
+    MYSQL_DATABASE: phonebook
